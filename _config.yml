@@ -1,7 +1,8 @@
 # Setup
 name:         Tech Corner
 tagline:      Devops-GitHub & IaC-Terraform
-baseurl:      ""
+domain:       mvuddaraju.github.io 
+#baseurl:      ""
 locale:       "en"
 
 # Gems
