@@ -1,0 +1,14 @@
+---
+layout: default
+title: Devops-GitHub & IaC-Terraform
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>  
+        <small>{{ post.description }}</small>    
+    {% endfor %}
+  </ul>
+</div>
